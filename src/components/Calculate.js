@@ -1,7 +1,8 @@
+import React, { useState } from "react";
 import ButtonPanel from "./ButtonPanel";
 import Display from "./Display";
 
-function App() {
+function Calculate() {
   return (
     <div>
       <Display />
@@ -10,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default Calculate;
