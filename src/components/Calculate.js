@@ -13,8 +13,17 @@ function Calculate({
   const [operation, setOperation] = useState(initialOperation);
 
   const handleClick = (buttonName) => {
-    const result = calculation({});
+    const result = calculation({ total, next, operation }, buttonName);
+    setTotal(result.total);
+    setNext(result.next);
+    setOperation(result.operation);
   };
+
+  let display = "";
+  if (!total) display = "0";
+  if (total) display = total;
+  if (total && operation) display = total;
+  if (total && operation && next) display = next;
 
   return (
     <div>
