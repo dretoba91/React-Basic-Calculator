@@ -8,38 +8,38 @@ const ButtonPanel = (clickApp) => {
   };
   return (
     <>
-      <div className="">
-        <Button buttonName="AC" clickPanel={clickHandle} color="" />
-        <Button buttonName="+/-" clickPanel={clickHandle} color="" />
-        <Button buttonName="%" clickPanel={clickHandle} color="" />
-        <Button buttonName="/" clickPanel={clickHandle} color="" />
+      <div className="buttonPanel">
+        <Button buttonName="AC" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="+/-" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="%" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="/" clickPanel={clickHandle} color="gray" />
       </div>
 
-      <div className="">
-        <Button buttonName="7" clickPanel={clickHandle} color="" />
-        <Button buttonName="8" clickPanel={clickHandle} color="" />
-        <Button buttonName="9" clickPanel={clickHandle} color="" />
-        <Button buttonName="X" clickPanel={clickHandle} color="" />
+      <div className="buttonPanel">
+        <Button buttonName="7" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="8" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="9" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="X" clickPanel={clickHandle} color="gray" />
       </div>
 
-      <div className="">
-        <Button buttonName="4" clickPanel={clickHandle} color="" />
-        <Button buttonName="5" clickPanel={clickHandle} color="" />
-        <Button buttonName="6" clickPanel={clickHandle} color="" />
-        <Button buttonName="-" clickPanel={clickHandle} color="" />
+      <div className="buttonPanel">
+        <Button buttonName="4" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="5" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="6" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="-" clickPanel={clickHandle} color="gray" />
       </div>
 
-      <div className="">
-        <Button buttonName="1" clickPanel={clickHandle} color="" />
-        <Button buttonName="2" clickPanel={clickHandle} color="" />
-        <Button buttonName="3" clickPanel={clickHandle} color="" />
-        <Button buttonName="+" clickPanel={clickHandle} color="" />
+      <div className="buttonPanel">
+        <Button buttonName="1" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="2" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="3" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="+" clickPanel={clickHandle} color="gray" />
       </div>
 
-      <div className="">
-        <Button buttonName="0" clickPanel={clickHandle} color="" />
-        <Button buttonName="." clickPanel={clickHandle} color="" />
-        <Button buttonName="=" clickPanel={clickHandle} color="" />
+      <div className="buttonPanel">
+        <Button buttonName="0" clickPanel={clickHandle} color="gray" />
+        <Button buttonName="." clickPanel={clickHandle} color="gray" />
+        <Button buttonName="=" clickPanel={clickHandle} />
       </div>
     </>
   );
