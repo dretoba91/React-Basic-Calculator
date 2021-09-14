@@ -16,25 +16,50 @@ code {
     monospace;
 }
 
+.screen {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  height: 100vh;
+  border: red solid 20px;
+}
+
+h2 {
+  color: pink;
+}
+
 .display {
-  width: 700px;
+  width: 350px;
   color: white;
   text-align: right;
-  font-size: 80px;
-  height: 100px;
+  font-size: 50px;
+  height: 80px;
   font-weight: bold;
+  border: steelblue solid 5px;
+  margin-bottom: 5px;
 }
 
 .display p {
   background-color: gray;
+  width: auto;
+  height: inherit;
   margin: 0;
-  border: solid #d1d1d1 1px;
+  border: solid #1a1919 1px;
   padding: 0 0.2em;
 }
 
 .buttonPanel {
-  width: 700px;
-  height: 100px;
+  width: 350px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px; */
+  border: greenyellow solid 5px;
 }
 
 .zero {
@@ -53,10 +78,12 @@ code {
 }
 
 .buttonPanel button {
-  border: solid #d1d1d1 1px;
-  border-radius: 0%;
+  border: solid #382828 3px;
+  width: 75px;
+  margin: 3px;
+  border-radius: 50%;
   color: black;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .Navbar {

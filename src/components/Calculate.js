@@ -26,7 +26,7 @@ function Calculate({
   if (total && operation && next) display = next;
 
   return (
-    <div>
+    <div className="screen">
       <div>
         <h2>Solve your Math problems</h2>
       </div>
